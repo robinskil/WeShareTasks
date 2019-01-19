@@ -1,7 +1,11 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
+import 'normalize.css';
+import App from "./App";
 
 ReactDOM.render(
-    <h1>Test Text React</h1>,
-    document.getElementById("example")
+
+    <App/>
+    ,
+    document.getElementById("root")
 );
