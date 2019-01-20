@@ -1,0 +1,17 @@
+.icon-colored{
+    color: #6610f2;
+}
+.icon-colored-invalid{
+    color: #FC3939;
+}
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus{
+    -webkit-box-shadow: 0 0 5px rgba(252, 57, 57, 0.25);
+    box-shadow: 0 0 5px rgba(252, 57, 57, 0.25);
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
